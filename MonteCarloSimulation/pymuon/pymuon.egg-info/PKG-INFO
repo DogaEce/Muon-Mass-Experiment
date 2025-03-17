@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pymuon
+Version: 0.1.0
+Summary: Muon Attenuation Simulation
+Author: Sacha Medaer, Edward Galantay, Brayan Reyes Alvarado
+Author-email: sacha.medaer@etu.unige.ch
+License: Apache License 2.0
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+# Need to be Written
+
+This folder contains a python application which allows one to simulate
+the attenuation of a given muon through layers of different materials.
+
+## How to run the program ?
+Install locally the program as follows (place yourself in the git main folder):
+```sh
+python3 -m pip install -e pymuon
+```
+Then move into the *pymuon/* folder and install the dependencies:
+```sh
+python3 -m pip install -r requirements.txt
+```
+
+Create your code into the *examples/* folder.
+To run your code in this folder (or any others), place yourself in the
+main folder (*pymuon*) and run:
+
+```sh
+python3 examples/my_code.py
+```
